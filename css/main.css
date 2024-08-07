@@ -1,3 +1,41 @@
+/* adds all main colours */
+
+:root {
+    --bs-primary: #0f4d92;
+    --bs-primary-rgb: 15, 77, 146;
+    --bs-secondary: #b8afff;
+    --bs-secondary-rgb: 184, 175, 255;
+    --bs-dark: #0d0c1d;
+    --bs-dark: rgb(13, 12, 29);
+    --bs-light: #ffffff;
+}
+
+.btn-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-light);
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary)e;
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-secondary {
+     --bs-btn-font-weight: 700;
+    --bs-btn-color: var(--bs-dark);
+    --bs-btn-bg: var(--bs-secondary);
+    --bs-btn-border-color: var(--bs-dark);
+    --bs-btn-hover-bg: var(--bs-secondary);
+    --bs-btn-hover-border-color: var(--bs-secondary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary)e;
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
 .banner { 
    
     background-image: url(../images/camera.jpg);
@@ -15,6 +53,12 @@
     padding: 50px;
     margin-bottom: 30px;
    
+}
+
+h4 {
+    font-size: 40px;
+    text-align: center;
+    padding: 100px;
 }
 
 .website img {
@@ -46,4 +90,39 @@
 body {
     background-color: #0D0C1D;
     color: aliceblue;
+}
+
+.website-text3 {
+    font-size: 22px;
+    text-align: left;
+    background-color: #0F4D92;
+    border: 15px solid;
+    border-color: #B8AFFF;
+    padding: 30px;
+}
+
+.carousel {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* about me */
+
+
+.anthony img {
+    font-size: 20px;
+    border: 15px solid;
+    border-color: var(--bs-secondary);
+    margin-left: 95px;
+    margin-top: -10px;
+    border-radius: 10%;
+}
+
+.about-text {
+    font-size: 20px;
+    border: 15px solid;
+    border-color: var(--bs-secondary);
+    background-color: var(--bs-primary);
+    padding: 50px;
+    margin-bottom: 250px;
 }
