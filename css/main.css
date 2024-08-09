@@ -126,3 +126,50 @@ body {
     padding: 50px;
     margin-bottom: 250px;
 }
+
+/* adds style to social media */
+.social-media {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+    background-color: var(--bs-primary);
+    padding-bottom: 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:#b8afff;
+    border: 15px solid;
+}
+
+.social-media i {
+    font-size: 50px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.projects {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 15px solid;
+
+    padding: 10px;
+    background-color:#B8AFFF ;
+    
+}
+
+.card p {
+    color: white;
+}
+
+.card a {
+    color: #000;
+}
+
+.card h3 {
+    color: #ffffff;
+}

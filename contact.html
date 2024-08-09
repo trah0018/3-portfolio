@@ -39,57 +39,67 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 p-2">
                         <li class="nav-item">
-                            <a class="btn btn-primary ms-5 mt-5 p-5 pt-2 pb-2" aria-current="page"
+                            <a class=" btn btn-primary ms-5 mt-5 p-5 pt-2 pb-2" aria-current="page"
                                 href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="active btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="about.html">About
+                            <a class="btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="about.html">About
                                 Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="contact.html">Contact</a>
+                            <a class="active btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="contact.html">Projects</a>
+                            <a class="btn btn-primary ms-5 mt-5  p-5 pt-2 pb-2" href="projects.html">Projects</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <h4>About Me</h4>
-    <section id="skip-link"></section>
-    <!-- adds imformation about me -->
-    <section class="about">
-        <div class="container-md">
-            <div class="row">
-                <div class="col-12 anthony col-lg-5 pb-4 pt- ">
-                    <picture> 
-                        <source srcset="images/picture-of-me-456_x_510.jpg" media="(min-width:1400px)">
-                        <source srcset="images/picture-of-me-456_x_510.jpg" media="(min-width:990px)">
-                        <source srcset="images/picture-of-me-696_x_465.jpg" media="(min-width:768px)">
-                        <source srcset="images/picture-of-me-366_x_245.jpg" media="(min-width:300px)">
-                        <img src="images/picture-of-me-636_x_425.jpg" alt="Image of Anthony">
-                    </picture>
-                </div>
-                <div class="col-12 col-lg-7 pt-5">
-                    <p class=" about-text text"> My name is Anthony, and I am a student studying Interactive Media Design at
-                        Algonquin College. I specialize in UX design, web design, and web development, where I have
-                        utilized some of those skills to create this website using HTML/CSS and Bootstrap.
-                        Additionally, I am proficient in digital graphics, Photoshop, photography, video production,
-                        and more
-                        Space is so much more than just a black sky with white dots. It's a boundless canvas filled
-                        with the most beautiful and colorful sights that we can imagine. That's why my mission is to
-                        create my portfolio built around a space theme. I want to showcase all the beautiful colors,
-                        planets, galaxies, and more. I also want to add the relationship between humans and space
-                        such as rockets, astronauts, and even sci-fi art styles.</p>
-                </div>
 
+    <main>
+        <h4>Contact Me</h4>
+        <section id="skip-link"></section>
+        <!-- adds a contact form -->
+        <section class="contact-form" role="region">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <picture>
+                            <source srcset="images/astronaut-546_x_700.png" media="(min-width:1400px)">
+                            <source srcset="images/astronaut-450_x_575.png" media="(min-width:990px)">
+                            <source srcset="images/astronaut-250_x_300.png" media="(min-width:768px)">
+                            <img src="images/astronaut-546_x_700.png" alt="Image of Anthony">
+                        </picture>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="validationCustom01" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="validationCustom01" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Example label</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput">
+                            </div>
+                            <div class="form-floating">Questions?
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info mt-3 rounded-pill p-5 pt-2 pb-2">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- social media section -->
 
-    <h4>Social Media</h4>
+        <h4>Social Media</h4>
         <section class="social-media" role="region">
 
             <div class="container text-center">
@@ -110,25 +120,4 @@
                 </div>
             </div>
         </section>
-
-        
-    <!-- adds footer -->
-    <footer role="contentinfo">
-
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <img src="images/logo.png" alt="logo" width="20%">
-                </div>
-                <div class="col">
-                    <p>&copy; Copywright 2024 Anthony Trahan</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-</body>
-</body>
-
-</html>
+    </main>
