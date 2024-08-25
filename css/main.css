@@ -193,4 +193,93 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+.mobile-preview{
+        display: none;
+    }
 
+.about-mobile {
+    display: none;
+}
+
+/* iphone size */
+@media(min-device-width: 300px) and (max-width:767px) {
+    .container {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .mobile-preview {
+        display: grid;
+    }
+
+    /* home page */
+    .banner {
+        background-image: none;
+    }
+
+    .banner a {
+        margin-top: 30px;
+        margin-left:40px ;
+        max-width: 300px;   
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .website-img {
+       display: none;
+    }
+
+    .website-text {
+        display: none;
+    }
+    
+
+    .website-img2 {
+       display: none;
+    }
+
+    .website-text2 {
+        display: none;
+
+    }
+
+    .website-text3 {
+        font-size: 15px;
+    }
+
+    /* About page */
+
+    .about-mobile {
+        display: grid;
+    }
+
+    .anthony {
+        display: none;
+    }
+
+    .about-text {
+      display: none;
+    }
+
+    /* Social Media */
+
+
+}
+
+
+
+
+
+
+/* adds hamberger icon and "x" icon for nav */
+.navbar-toggler[aria-expanded="true"] .bi-list,
+.navbar-toggler[aria-expanded="false"] .bi-x-lg {
+    display: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .bi-x-lg,
+.navbar-toggler[aria-expanded="false"] .bi-list {
+    display: inline;
+}
